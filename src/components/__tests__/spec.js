@@ -22,7 +22,7 @@ describe("Header Component", () => {
 
   it("Should render a logo", () => {
     const component = setup();
-    const logo = findByTestAtrr(component, "logoImg");
+    const logo = findByTestAtrr(component, "logoIMG");
     expect(logo.length).toBe(1);
   });
 });
